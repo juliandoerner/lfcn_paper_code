@@ -1,0 +1,19 @@
+{
+  "name": "FEniCSx (real) - LFCN wave/heat 1D",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/dolfinx-env/bin/python3"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "FEniCSx (real) - LFCN thermo-elastic 2D",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/dolfinx-env/bin/python3"
+      }
+    }
+  }
+}
